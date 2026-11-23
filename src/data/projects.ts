@@ -60,11 +60,14 @@ export const projects: Project[] = [
     kind: 'Hack the Change 2025, team of three',
     summary:
       'A platform that helps newcomers to Calgary connect with others, complete city onboarding tasks and join local events.',
-    role: 'I built the initial React app and user-facing features such as login, profile customization, friend management and task uploads. The backend and AWS services were mostly built by teammates.',
-    stack: ['React.js', 'JavaScript', 'FastAPI', 'AWS DynamoDB', 'AWS S3', 'face-api.js'],
-    stackNote: 'React.js and JavaScript are my frontend work. The rest is the team stack described on Devpost.',
+    role: 'I built the initial React app and user-facing features such as login, profile customization, friend management and task uploads, and contributed to the Gemini API integration for the AI-generated to-do list. The backend and AWS services were mostly built by teammates.',
+    stack: ['React.js', 'JavaScript', 'Gemini API', 'FastAPI', 'AWS DynamoDB', 'AWS S3', 'face-api.js'],
+    stackNote: 'React.js, JavaScript and the Gemini API are my areas. The rest is the team stack described on Devpost.',
     featured: true,
-    links: [{ label: 'View on Devpost', url: 'https://devpost.com/software/settlerr' }],
+    links: [
+      { label: 'View on Devpost', url: 'https://devpost.com/software/settlerr' },
+      { label: 'Source', url: 'https://github.com/AlaikKadiwar/Settlerr' },
+    ],
   },
   {
     id: 'salary-analysis',

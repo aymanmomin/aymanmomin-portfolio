@@ -19,8 +19,8 @@
 - Phase 6: case-study pages for ChalkUp, Financial Reality and Settlerr
 
 ## Blockers / missing information
-- Repository visibility: Nexus, Alberta Class 7 and the financial project repos returned 404 publicly, so their repo buttons are hidden until confirmed public
-- Settlerr: confirm contribution wording and any Gemini work; permission to link the public repo under a teammate's account
+- Nexus, Alberta Class 7 and the financial project repos are private (owner confirmed), so their repo buttons stay hidden unless made public
+- Settlerr: owner confirmed the Gemini wording and linking the public repo; the card says contributed to, as the repo shows the Gemini code committed by a teammate
 - ChalkUp: confirm the final technology stack (currently labelled planned and in-progress)
 - Coffee Energy Analysis: README not yet read, so it is excluded for now
 - Atomic Habits, Timeliness dashboard and Ego Network card wording are short drafts

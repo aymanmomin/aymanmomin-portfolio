@@ -23,9 +23,11 @@ describe('projects data', () => {
     expect(projects.filter((project) => project.inDevelopment)).toHaveLength(1)
   })
 
-  // Remove this guard once the owner confirms what they did on Gemini.
-  it('does not claim Gemini work on Settlerr', () => {
-    expect(JSON.stringify(byId('settlerr')).toLowerCase()).not.toContain('gemini')
+  // Keeps the Gemini wording honest: the repo shows the Gemini code was committed by a teammate.
+  it('describes Gemini as a contribution, not sole authorship', () => {
+    const role = byId('settlerr')?.role ?? ''
+    expect(role).toContain('contributed to the Gemini API integration')
+    expect(role).not.toMatch(/implemented|built the (whole|entire|complete)/i)
   })
 
   it('lists DegreeMap with SQLite, matching the repository', () => {
