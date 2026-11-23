@@ -8,12 +8,12 @@
 - Vite, React, TypeScript and ESLint scaffold
 - Tailwind CSS, Vitest, GitHub Actions CI (lint, test, build)
 - Project documentation and PR template
+- Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell
 
 ## In progress
-- Design system and layout foundation
+- Hero and 3D scene (next phase)
 
 ## Next
-- Design tokens, fonts, navigation shell
 - Hero and 3D scene
 
 ## Blockers / missing information
