@@ -1,7 +1,7 @@
 import About from './components/about/About'
+import Contact from './components/contact/Contact'
 import Experience from './components/experience/Experience'
 import Hero from './components/hero/Hero'
-import Section from './components/layout/Section'
 import Navbar from './components/navigation/Navbar'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
@@ -22,9 +22,7 @@ export default function App() {
         <Projects />
         <Experience />
         <Skills />
-        <Section id="contact" title="Contact">
-          <p>Content coming soon.</p>
-        </Section>
+        <Contact />
       </main>
     </>
   )
