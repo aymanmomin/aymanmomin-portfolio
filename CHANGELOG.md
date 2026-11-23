@@ -13,6 +13,7 @@ All notable changes are recorded here. Format based on Keep a Changelog.
 - About and Education section, and grouped Skills section with text-based level labels
 - Experience timeline (Lemmer, PropAll, A&W, Aga Khan) and leadership summary
 - Projects section with three featured projects and eight smaller ones, with tests guarding unverified claims
+- Contact section with an optional message form that appears only when an endpoint is configured
 
 ### Changed
 - Replaced Vite starter content with a placeholder page
