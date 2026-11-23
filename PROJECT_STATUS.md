@@ -1,30 +1,32 @@
 # Project Status
 
-- **Current phase:** 4, hero and 3D scene (PR open)
-- **Latest successful build:** CI `verify` passed on PR #4; Phase 4 CI result recorded after merge
+- **Current phase:** 5, core content (batch A: About, Skills, Education)
+- **Latest successful build:** CI `verify` passed on PR #5 (hero); batch A result recorded after merge
 
 ## Completed
 - Repository, `main` and `develop` branches, `main` protected (PR required, `verify` check required, no force-push, no deletion)
-- Vite, React, TypeScript and ESLint scaffold
-- Tailwind CSS, Vitest, GitHub Actions CI (lint, test, build)
-- Project documentation and PR template
+- Vite, React, TypeScript, ESLint, Tailwind, Vitest, GitHub Actions CI
 - Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell (PR #4)
+- Hero with lazy-loaded 3D network graph and static fallback (PR #5)
 
 ## In progress
-- Hero section, lazy-loaded 3D network graph, static fallback
+- About, Education and Skills sections
 
 ## Next
-- Phase 5: About, projects, experience, skills, education, contact
+- Batch B: Experience (Lemmer, PropAll, A&W, Aga Khan, leadership summary)
+- Batch C: Projects (featured and secondary)
+- Batch D: Contact (form only active when an endpoint is configured)
 
 ## Blockers / missing information
-- Web version of the resume PDF (contact details removed), pending a decision
-- ChalkUp repository/demo URL and current status confirmation
-- Settlerr Devpost and GitHub URLs
+- Settlerr: confirm contribution wording and what, if anything, was done on Gemini
+- Settlerr: permission to link the public repo under a teammate's account
+- Salary analysis: live Streamlit dashboard URL
 - Lemmer accuracy figure (baseline, metric, absolute or relative)
-- Screenshot approval for the financial dashboard
-- Contact form provider choice
+- Web version of the resume PDF (contact details removed), pending a decision
+- Financial dashboard screenshot approval
+- ChalkUp is private: no repository link will be shown
 
 ## Known bugs
-- None known. Content sections below the hero are placeholders.
+- None known. Projects, Experience and Contact sections are placeholders.
 - 3D chunk is 243 kB gzipped; size reduction planned for refinement.
-- 3D frame rate and battery impact not yet measured.
+- 3D frame rate, battery impact and accessibility audit (axe) not yet run.
