@@ -1,20 +1,20 @@
 # Project Status
 
-- **Current phase:** 3, foundation and design system (PR open)
-- **Latest successful build:** local `npm run build`; CI result recorded after merge
+- **Current phase:** 4, hero and 3D scene (PR open)
+- **Latest successful build:** CI `verify` passed on PR #4; Phase 4 CI result recorded after merge
 
 ## Completed
 - Repository, `main` and `develop` branches, `main` protected (PR required, `verify` check required, no force-push, no deletion)
 - Vite, React, TypeScript and ESLint scaffold
 - Tailwind CSS, Vitest, GitHub Actions CI (lint, test, build)
 - Project documentation and PR template
-- Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell
+- Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell (PR #4)
 
 ## In progress
-- Review and merge of the design system PR
+- Hero section, lazy-loaded 3D network graph, static fallback
 
 ## Next
-- Phase 4: hero section and 3D scene
+- Phase 5: About, projects, experience, skills, education, contact
 
 ## Blockers / missing information
 - Web version of the resume PDF (contact details removed), pending a decision
@@ -25,4 +25,6 @@
 - Contact form provider choice
 
 ## Known bugs
-- None known. Content sections are placeholders.
+- None known. Content sections below the hero are placeholders.
+- 3D chunk is 243 kB gzipped; size reduction planned for refinement.
+- 3D frame rate and battery impact not yet measured.
