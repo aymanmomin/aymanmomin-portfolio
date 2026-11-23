@@ -3,6 +3,7 @@ import Experience from './components/experience/Experience'
 import Hero from './components/hero/Hero'
 import Section from './components/layout/Section'
 import Navbar from './components/navigation/Navbar'
+import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 
 export default function App() {
@@ -18,10 +19,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <About />
-
-        <Section id="projects" title="Projects">
-          <p>Content coming soon.</p>
-        </Section>
+        <Projects />
         <Experience />
         <Skills />
         <Section id="contact" title="Contact">

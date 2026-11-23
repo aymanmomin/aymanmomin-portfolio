@@ -12,6 +12,7 @@ All notable changes are recorded here. Format based on Keep a Changelog.
 - Hero section with a lazy-loaded interactive 3D network graph and a static SVG fallback
 - About and Education section, and grouped Skills section with text-based level labels
 - Experience timeline (Lemmer, PropAll, A&W, Aga Khan) and leadership summary
+- Projects section with three featured projects and eight smaller ones, with tests guarding unverified claims
 
 ### Changed
 - Replaced Vite starter content with a placeholder page
