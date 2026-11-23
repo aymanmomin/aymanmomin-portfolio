@@ -9,7 +9,7 @@ const intro =
 export default function Hero() {
   return (
     <section id="home" aria-labelledby="home-title" className="relative overflow-hidden">
-      <Container className="grid min-h-[calc(100svh-4rem)] items-center gap-6 py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
+      <Container className="grid min-h-[calc(100svh-4rem)] grid-cols-1 items-center gap-6 py-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10 [&>*]:min-w-0">
         <div>
           <p className="text-sm font-medium tracking-wide text-accent-strong">
             BSc Computer Science, University of Calgary · Final term, graduating February 2027
