@@ -1,6 +1,8 @@
+import About from './components/about/About'
 import Hero from './components/hero/Hero'
 import Section from './components/layout/Section'
 import Navbar from './components/navigation/Navbar'
+import Skills from './components/skills/Skills'
 
 export default function App() {
   return (
@@ -14,19 +16,15 @@ export default function App() {
       <Navbar />
       <main id="main">
         <Hero />
+        <About />
 
-        <Section id="about" title="About">
-          <p>Content coming soon.</p>
-        </Section>
         <Section id="projects" title="Projects">
           <p>Content coming soon.</p>
         </Section>
         <Section id="experience" title="Experience">
           <p>Content coming soon.</p>
         </Section>
-        <Section id="skills" title="Skills">
-          <p>Content coming soon.</p>
-        </Section>
+        <Skills />
         <Section id="contact" title="Contact">
           <p>Content coming soon.</p>
         </Section>
