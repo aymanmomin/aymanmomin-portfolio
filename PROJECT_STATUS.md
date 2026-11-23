@@ -1,6 +1,6 @@
 # Project Status
 
-- **Current phase:** 5, core content (batch A: About, Skills, Education)
+- **Current phase:** 5, core content (batch B: Experience)
 - **Latest successful build:** CI `verify` passed on PR #5 (hero); batch A result recorded after merge
 
 ## Completed
@@ -8,12 +8,12 @@
 - Vite, React, TypeScript, ESLint, Tailwind, Vitest, GitHub Actions CI
 - Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell (PR #4)
 - Hero with lazy-loaded 3D network graph and static fallback (PR #5)
+- About, Education and Skills sections (PR #6)
 
 ## In progress
-- About, Education and Skills sections
+- Experience section
 
 ## Next
-- Batch B: Experience (Lemmer, PropAll, A&W, Aga Khan, leadership summary)
 - Batch C: Projects (featured and secondary)
 - Batch D: Contact (form only active when an endpoint is configured)
 

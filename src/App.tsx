@@ -1,4 +1,5 @@
 import About from './components/about/About'
+import Experience from './components/experience/Experience'
 import Hero from './components/hero/Hero'
 import Section from './components/layout/Section'
 import Navbar from './components/navigation/Navbar'
@@ -21,9 +22,7 @@ export default function App() {
         <Section id="projects" title="Projects">
           <p>Content coming soon.</p>
         </Section>
-        <Section id="experience" title="Experience">
-          <p>Content coming soon.</p>
-        </Section>
+        <Experience />
         <Skills />
         <Section id="contact" title="Contact">
           <p>Content coming soon.</p>
