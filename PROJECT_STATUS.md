@@ -1,17 +1,20 @@
 # Project Status
 
-- **Current phase:** 2, repository and Git setup
-- **Current branch:** docs/project-documentation
-- **Latest successful build:** none (no build exists yet)
+- **Current phase:** 3, foundation and tooling
+- **Latest successful build:** local `npm run build` (CI result recorded after first run)
 
 ## Completed
-- Repository created, `main` and `develop` branches exist
+- Repository, `main` and `develop` branches, `main` protected (PR required, no force-push, no deletion)
+- Vite, React, TypeScript and ESLint scaffold
+- Tailwind CSS, Vitest, GitHub Actions CI (lint, test, build)
+- Project documentation and PR template
 
 ## In progress
-- Project documentation and branch protection
+- Design system and layout foundation
 
 ## Next
-- Phase 3: Vite/React/TypeScript scaffold, CI, design system
+- Design tokens, fonts, navigation shell
+- Hero and 3D scene
 
 ## Blockers / missing information
 - Resume PDF
@@ -20,6 +23,7 @@
 - Lemmer accuracy figure (baseline, metric, absolute or relative)
 - Screenshot approval for the financial dashboard
 - Contact form provider choice
+- Final A&W role wording and Team Lead start confirmation
 
 ## Known bugs
-- None
+- None known. The site is still a placeholder page.
