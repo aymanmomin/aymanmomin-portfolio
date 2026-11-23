@@ -9,6 +9,7 @@
 - Tailwind CSS, Vitest, GitHub Actions CI (lint, test, build)
 - Project documentation and PR template
 - Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell
+- Design tokens, self-hosted fonts, UI primitives, responsive navbar, page shell
 
 ## In progress
 - Hero and 3D scene (next phase)
