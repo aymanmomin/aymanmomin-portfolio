@@ -27,6 +27,9 @@ export interface PopupContent {
   bullets?: string[]
   media?: MediaSpec[]
   links?: PopupLink[]
+  diagram?: 'seo-staircase'
+  // Notes about content still to be supplied. Shown only while empty media slots are shown.
+  todo?: string[]
 }
 
 export interface Stat {
@@ -46,7 +49,8 @@ export interface Stop {
   period: string
   headline: string
   stat: Stat
+  special?: 'currency'
   media: MediaSpec
   express: StopText
-  detailed: StopText & { extras?: PopupContent[] }
+  detailed?: StopText & { extras?: PopupContent[] }
 }
