@@ -10,11 +10,10 @@ All notable changes are recorded here. Format based on Keep a Changelog.
 - GitHub Actions CI (lint, test, build)
 - Design tokens, self-hosted fonts, UI primitives, responsive navbar and page shell
 - Hero section with a lazy-loaded interactive 3D network graph and a static SVG fallback
-- About and Education section, and grouped Skills section with text-based level labels
-- Experience timeline (Lemmer, PropAll, A&W, Aga Khan) and leadership summary
-- Projects section with three featured projects and eight smaller ones, with tests guarding unverified claims
-- Contact section with an optional message form that appears only when an endpoint is configured
+- About, Education, Skills, Experience, Projects and Contact sections
+- Story site foundation: content model, word-count budgets, media slot, accessible dialog, claims register
 
 ### Changed
 - Replaced Vite starter content with a placeholder page
 - Set page title, description and theme colour
+- Site direction changed to a single-page, scroll-driven story; the station-snapping prototype was never merged
