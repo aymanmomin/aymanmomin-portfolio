@@ -17,4 +17,4 @@ Set `SHOW_EMPTY_MEDIA_SLOTS` to `false` in `src/story/config.ts` so visitors nev
 Add captions to any video.
 
 ## Previewing
-Run `npm run dev` and open `/?story=1`. The standard layout remains the default until the story is finished.
+Run `npm run dev` and open the site. The story is the default view. Add `?story=0` to see the earlier standard layout.

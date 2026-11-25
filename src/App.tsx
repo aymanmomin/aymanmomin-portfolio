@@ -7,12 +7,12 @@ import Navbar from './components/navigation/Navbar'
 import Projects from './components/projects/Projects'
 import Skills from './components/skills/Skills'
 
-// The scroll-driven story is being built behind ?story=1.
-// The standard layout stays the default until the story is ready.
+// The scroll-driven story is the default. Add ?story=0 to see the earlier standard layout.
+// The standard layout is kept as a fallback while the story is built.
 const StoryPage = lazy(() => import('./story/StoryPage'))
 
 export default function App() {
-  if (new URLSearchParams(window.location.search).get('story') === '1') {
+  if (new URLSearchParams(window.location.search).get('story') !== '0') {
     return (
       <Suspense fallback={<div className="min-h-svh bg-bg" />}>
         <StoryPage />

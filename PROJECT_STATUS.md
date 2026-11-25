@@ -6,11 +6,11 @@
 ## Completed
 - Repository, `main` and `develop` branches, `main` protected (PR required, `verify` check required, no force-push, no deletion)
 - Vite, React, TypeScript, ESLint, Tailwind, Vitest, GitHub Actions CI
-- Standard layout: hero with 3D network graph, About, Skills, Experience, Projects, Contact (still the default; to be retired)
+- Standard layout: hero with 3D network graph, About, Skills, Experience, Projects, Contact (now at `?story=0`; to be retired)
 - Story foundation: content model, word budgets, dialog, media slot, claims register (PR #10)
 
 ## In progress
-- Express route: all 11 stops written, currency toggle, SEO staircase, readable page at `/?story=1`
+- Express route: all 11 stops written, currency toggle, SEO staircase, readable page, now the default view (`?story=0` shows the standard layout)
 
 ## Parked
 - Local branch `feature/world-engine` (station-snapping prototype, never pushed or merged)
