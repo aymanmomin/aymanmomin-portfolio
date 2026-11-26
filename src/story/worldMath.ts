@@ -5,7 +5,7 @@ import type { Rgb } from './path'
 export const CAMERA_X = [0, 4, 10, 16, 22, 28, 34, 40, 62, 92, 106, 120]
 export const CAMERA_Y = [4, 4, 4, 4, 4, 4, 4, 5, 14, 5, 4, 4]
 export const CAMERA_Z = [15, 15, 15, 15, 15, 15, 15, 17, 21, 17, 15, 15]
-export const LOOK_Y = [3.4, 3.4, 3.4, 3.4, 3.4, 3.4, 3.4, 5, 11, 4, 3.4, 3.4]
+export const LOOK_Y = [5.4, 5.4, 5.4, 5.4, 5.4, 5.4, 5.4, 7, 13, 6, 5.4, 5.4]
 
 // Mumbai ends and Calgary begins with a stretch of open sky between them: the crossing.
 export const MUMBAI_X: [number, number] = [-10, 50]
