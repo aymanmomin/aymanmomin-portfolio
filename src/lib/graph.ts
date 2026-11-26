@@ -16,7 +16,7 @@ export interface Graph {
 }
 
 // Small seeded PRNG so the graph is identical on every load and in tests.
-function createRandom(seed: number): () => number {
+export function createRandom(seed: number): () => number {
   let state = seed | 0
   return () => {
     state = (state + 0x6d2b79f5) | 0
