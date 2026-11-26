@@ -13,7 +13,7 @@ All notable changes are recorded here. Format based on Keep a Changelog.
 - About, Education, Skills, Experience, Projects and Contact sections
 - Story site foundation: content model, word-count budgets, media slot, accessible dialog, claims register
 - Express route: eleven stops with copy, stats, pop-ups, an agency income currency toggle and an animated SEO staircase
-- Scroll-driven 3D thread behind the story, with a camera that follows scroll and an India / The Crossing / Canada progress bar
+- Scroll-driven 3D world behind the story (Mumbai, a night crossing, Calgary), with a camera that follows scroll and an India / The Crossing / Canada progress bar
 
 ### Changed
 - Replaced Vite starter content with a placeholder page

@@ -10,7 +10,7 @@
 - Express route: eleven stops, currency toggle, SEO staircase, pop-ups; now the default view, with the earlier standard layout at `?story=0` (PR #11)
 
 ## In progress
-- Scroll engine: fixed 3D scene, scroll-driven camera along a thread, India / Crossing / Canada progress bar
+- Scroll engine: fixed 3D scene, scroll-driven camera through a Mumbai, crossing and Calgary world, India / Crossing / Canada progress bar
 
 ## Parked
 - Local branch `feature/world-engine` (station-snapping prototype, never pushed or merged)
