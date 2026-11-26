@@ -11,20 +11,22 @@ interface StopSectionProps {
   route: Route
   onOpenPopup: (popup: PopupContent) => void
   after?: ReactNode
+  // Over the 3D scene, the text sits on a translucent panel so it stays readable.
+  immersive?: boolean
 }
 
-export default function StopSection({ stop, route, onOpenPopup, after }: StopSectionProps) {
+export default function StopSection({ stop, route, onOpenPopup, after, immersive = false }: StopSectionProps) {
   const text = stopText(stop, route)
 
   return (
     <article
       id={stop.id}
       aria-labelledby={`${stop.id}-title`}
-      className="scroll-mt-16 border-t border-line py-14 sm:py-20"
+      className="scroll-mt-24 border-t border-line py-14 sm:py-20"
     >
       <Container>
         <div className="grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] lg:gap-12">
-          <div>
+          <div className={immersive ? 'rounded-card bg-bg/70 p-5 backdrop-blur-sm sm:p-8' : ''}>
             <p className="text-sm text-accent-strong">
               {String(stop.number).padStart(2, '0')} &middot; {stop.period}
             </p>
